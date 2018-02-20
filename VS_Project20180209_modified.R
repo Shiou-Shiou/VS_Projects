@@ -445,7 +445,4 @@ Sessions.Table.Adjust(n_sessions = 1000, n_customer = 1000, n_product = 1000)
 Summary.Probability(n_sessions = 300, n_product = 500, n_customer = 10000)
 # Build the aggregate data frame with 1000 sessions.
 Aggregate.Form(n_sessions = 1000, n_product = 5000, n_customer = 1000)
-install.packages("devtools")
-library("devtools")
-devtools::install_github("klutometis/roxygen")
-library(roxygen2)
+
